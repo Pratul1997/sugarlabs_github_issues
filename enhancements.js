@@ -26,10 +26,10 @@ var enhancements_record = (callback12)=> {
         enhancements_c_2:info.items[1].user.login,
         enhancements_c_3:info.items[2].user.login,
         enhancements_c_4:info.items[3].user.login,
-        enhancements_o_1:info.items[0].updated_at,
-        enhancements_o_2:info.items[1].updated_at,
-        enhancements_o_3:info.items[2].updated_at,
-        enhancements_o_4:info.items[3].updated_at
+        enhancements_o_1:(info.items[0].updated_at).slice(0, 10),
+        enhancements_o_2:(info.items[1].updated_at).slice(0, 10),
+        enhancements_o_3:(info.items[2].updated_at).slice(0, 10),
+        enhancements_o_4:(info.items[3].updated_at).slice(0, 10)
       });
     } 
   }

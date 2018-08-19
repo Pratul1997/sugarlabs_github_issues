@@ -25,10 +25,10 @@ var bug_record = (callback12)=> {
         bug_c_2:info.items[1].user.login,
         bug_c_3:info.items[2].user.login,
         bug_c_4:info.items[3].user.login,
-        bug_o_1:info.items[0].updated_at,
-        bug_o_2:info.items[1].updated_at,
-        bug_o_3:info.items[2].updated_at,
-        bug_o_4:info.items[3].updated_at
+        bug_o_1:(info.items[0].updated_at).slice(0, 10),
+        bug_o_2:(info.items[1].updated_at).slice(0, 10),
+        bug_o_3:(info.items[2].updated_at).slice(0, 10),
+        bug_o_4:(info.items[3].updated_at).slice(0, 10)
       });
     } 
   }
