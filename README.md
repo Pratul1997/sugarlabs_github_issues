@@ -1,5 +1,5 @@
 # sugarlabs_github_issues
-It collects issues of different types which are opened in Sugarlabs Github Organisation, you can find its working [here]().
+It collects issues of different types which are opened in Sugarlabs Github Organisation, you can find its working [here].
 
 It is a NodeJs based application which is used for collecting latest 4 issues of diffrent labels which are being attached to it.
 
